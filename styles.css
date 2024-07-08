@@ -1,0 +1,134 @@
+/* * {
+  background: #1F2937 ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  background: #3882F6;
+  border-radius: 5px;
+  border: none;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 800;
+}
+  
+  /* this selector selects all divs inside of .flex-container */
+  /* .flex-container div {
+    display: flex;
+    border: 4px solid brown;
+    flex-direction: row;
+    flex: 1 1 auto;
+    width: 1500px;
+  }
+
+  .flex-container .one div{
+    color: white;
+  }
+
+  .flex-container .one .header-logo{
+    justify-content: flex-start;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .flex-container .one .header-link{
+    justify-content: flex-end;
+  }
+
+  .flex-container .two .two-left{
+    flex-direction: column;
+    background: white;
+  }
+
+  .flex-container .three {
+    flex-direction: column;
+  }
+
+  .flex-container .four {
+    flex-direction: column;
+  }
+
+  .flex-container .four div{
+    background-color: #E5E7EB;
+  }
+
+  .flex-container .six .footer{
+    justify-content: center;
+  } */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container, html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.flex-container > div {
+  padding: 15px 250px;
+  /* text-align: center; */
+  /* margin-bottom: 10px; */
+  color: #EEEEEE;
+  height: 100%;
+}
+
+.flex-container .header {
+  display: flex;
+  background-color: #1F2937;
+  height: 10%;
+}
+
+.header-logo{
+  justify-content: flex-start;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.header-link{
+  text-align: end;
+  width: 50%;
+}
+  
+.intro {
+  background-color: #1F2937;
+}
+  
+.main-content {
+  background-color: white;
+}
+  
+.contact-us {
+  background-color: #E5E7EB;
+}
+
+.signup {
+  background-color: white;
+}
+
+.flex-container .footer {
+  background-color: #1F2937;
+  height: 10%;
+  padding-top: 5px;
+  text-align: center;
+}
